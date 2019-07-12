@@ -1,0 +1,277 @@
+a{
+	
+	color: #337ab7;
+
+}
+
+#alerta{
+color: red;
+}
+
+label{
+font-weight: bold;
+}
+
+
+button{
+	color: #337ab7;
+}
+
+input[type="submit"]{
+	color: #337ab7;
+}
+
+input[type="reset"]{
+	color: #337ab7;
+}
+button:hover{
+	color: #335E83;
+	cursor: pointer;
+}
+
+
+body{
+	
+	min-width: 320px;
+	max-width: 1920px;
+	margin:0 auto;
+	padding: .5em;
+	background: #f2f2f2;;	
+}
+
+button,input{
+
+border-radius: 7px;
+
+
+}
+input[type="submit"]:hover{
+
+	color: #335E83;
+	cursor: pointer;
+
+
+}
+
+input[type="reset"]:hover{
+
+	color: #335E83;
+	cursor: pointer;
+
+
+}
+body>h2{
+	text-align: center;
+	color: #337ab7;
+	text-shadow: 0px 0px 1px black,2px 2px 3px blue;
+
+}
+body>header{
+	display: flex;		
+	overflow: hidden;
+	background-color: #C2C5F4;			
+	text-align: center;
+
+	flex-grow: 1;	
+	flex-direction: row;
+	
+}
+body>header>nav>a>button{
+	margin-right: 1em;
+}
+body>header>figure{	
+	margin: auto;
+	padding: 1em;
+}
+body>header>nav{
+	color: #ABACC0;	
+			
+	text-align: right;
+	
+	width: 50%;	
+	margin: auto;
+	
+
+}
+body>header>nav>a>button{
+	
+	padding: 0.5em;
+
+}
+
+body>header>div{
+	width: 100%;
+	height: 100%;
+	
+	
+	margin: auto;
+	
+	align-self: center;
+	
+}
+body>header>div>input{
+	padding: 0.5em;
+	display: none;
+
+	
+}
+body>header>div>a>button{
+	padding: 0.5em;
+}
+
+/* section*/
+body>section[class="foto"]>figure>a>img{
+
+	width: 100%;
+}
+
+/*login*/
+body>section[class="login"]{
+
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+	
+	
+
+}
+body>section[class="login"]>article{
+	width: 50%;
+	text-align: center;
+	align-self: center;
+}
+body>section[class="cuenta"]{
+
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+	
+	
+
+}
+body>section[class="cuenta"]>article{
+	
+	align-self: center;
+	width: 40%;
+}
+
+
+body>section{
+
+			margin: 1em;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+		}
+		body>section[class="form"]{
+			border-bottom: dotted 2px #000;
+			padding-bottom: 2em;
+
+		}
+		body>section[class="inicio"]{
+			
+			flex-direction: column;
+		}
+
+		body>section>article{
+			overflow: hidden;
+			box-shadow: 1px 3px 6px #000;
+			padding: 1em;
+			margin: .5em;
+		}
+			body>section>article>form>ul{
+				list-style: none;
+			}
+		body>section>article>figure{
+			width: 30%;
+			margin: 0.1em;
+		}
+body>section[class="solicitud"]{
+	flex-direction: column;
+
+}
+	body>section[class="solicitud"]>article{
+	align-self: center;
+
+}
+
+/*detalle de pagina*/
+body>section>div[class="detalles"]{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-shadow: 1px 3px 6px #000;
+	padding: 1em;
+
+}
+
+
+div[class="datos"]>div{
+	display: flex;
+	flex-direction: row;
+	overflow: hidden
+
+}
+
+body>section>section{
+	padding: 2em;
+	float: left;
+text-align: center;
+
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+body>section>section>a>button{
+	padding-left:  3em;
+	padding-right: 3em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 0.5em;
+
+	
+	
+	box-shadow:0px 0px 4px ;
+}
+#myCarousel{
+	position: relative;
+	display: flex;		
+	overflow: hidden;
+	margin: auto;
+	padding: 2em;
+	padding-bottom: 0em;
+	float: left;
+}
+#myCarousel>div>div>footer{
+	margin-top: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+/*footer*/
+@media all and (min-width: 700px){
+	body>header>div>input{
+	display: inline;
+
+	
+}
+body>header>div{
+	padding-left:  5em;
+}
+}
+
+*{font-family: serif;}
+@media screen{
+
+*{font-family: sans-serif;}
+}
